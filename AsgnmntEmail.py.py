@@ -38,8 +38,8 @@ for index, row in df.iterrows():
     Amountval= row['Invoiced Amount']
     html_template = '''<html> 
     <font style= font-family: Calibri; font style = font-size:10pt>Hello %s,
-    <br><br>Hope you are doing great! <br><br> Your invoiced amount for the use of Amazon Services for last month is $ %.2f
-    <br><br>For any queries related to the invoiced amount, please write to us on localization@amazon.com. <br> <br>Thanks & Regards,<br>Azam
+    <br><br>Hope you are doing great! <br><br> Your amount for the use of funny Services for last month is $ %.2f
+    <br><br>For any queries related to the invoiced amount, please write to us on hello@funtime.com. <br> <br>Thanks & Regards,<br>Azam
     </html>''' %  (Nameval,Amountval)
 
     mail = outlook.CreateItem(0)
